@@ -1,0 +1,27 @@
+#navBar {
+    border: 2px solid red;
+
+
+}
+
+.link{
+    border: 5px solid green;
+}
+
+h1{
+    border: 5px solid blue;
+}
+
+.box{
+    border: 2px solid purple;
+    margin: 100px;
+}
+
+.child{
+    display: inline-block;
+    background-color: salmon;
+    border:2px solid black;
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+}

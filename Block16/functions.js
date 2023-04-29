@@ -44,10 +44,10 @@ function sub(subscription){
         return false
     }
 
-//** after we create subsription function we store it in a discount variable */
+//** after we create subsription function we store it in a sum variable */
 const sum = sub(subscription)
 
-//** Create a new function called sum using the variable discount to caculate the 25% discount */
+//** Create a new function called amount using the variable sum to caculate the pricePerRefill and refills in obj */
 
 function amount(sum){
     if (sum){
@@ -56,12 +56,12 @@ function amount(sum){
         return ("error in function")
 }
 
-//** After we get the sum total we create a variable called discount using the aomunt function.*/
+//** After we get the sum total we create a variable called discount using storing amount function in it.*/
 
 const discount = amount(subscription)
 
 
-//** Create a function called afterdiscount amount  */
+//** Create a function called newAmount */
 
 function newAmount(discount){
     let total = .25;

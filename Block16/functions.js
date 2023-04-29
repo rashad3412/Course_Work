@@ -27,13 +27,13 @@ const rocky = {
 
 //** Create a function for customer  */ /expeted output should be customers array of items.
 
-function cust(name){
+function customer(name){
     return name
 }
 
 //** After we create customer function we store function in subscription variable */
 
-const subscription = cust(sarah.subscription)
+const subscription = customer(sarah.subscription)
 
 //** Create a function to see if customer is subscribe using boolean */ expected output should return - true or false 
 
@@ -58,15 +58,17 @@ function amount(sum){
 
 //** After we get the sum total we create a variable called discount using the aomunt function.*/
 
-const discount = amount(sarah)
+const discount = amount(subscription)
 
 
 //** Create a function called afterdiscount amount  */
 
 function newAmount(discount){
     let total = .25;
+    // let total_2 = 10;
     if (discount){
-        return discount - (discount * total) ;
+        return discount - (discount * total);
+        // discount - total is for coupon obj
     } else 
         return("error in logic");
 }

@@ -75,4 +75,5 @@ function newAmount(discount){
 
 const finalAmount = newAmount(discount) 
 
-console.log("Your grand total is " + finalAmount)
+// console.log("Your grand total is " + finalAmount)
+

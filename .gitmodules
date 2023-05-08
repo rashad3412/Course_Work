@@ -1,3 +1,6 @@
 [submodule "Block18/Block18/testSpecs"]
 	path = Block18/Block18/testSpecs
 	url = https://github.com/rashad3412/testSpecs.git
+[submodule "Block18/Block18/Course_Work"]
+	path = Block18/Block18/Course_Work
+	url = https://github.com/rashad3412/testSpecs.git
